@@ -1,0 +1,10 @@
+---
+applications:
+  - name: go-hello
+    buildpacks:
+      - go_buildpack
+    memory: 512M
+    instances: 1
+    env:
+      GOVERSION: go1.14
+      https_proxy: http://internet.ford.com:83
