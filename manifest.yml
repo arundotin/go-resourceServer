@@ -7,4 +7,4 @@ applications:
     instances: 1
     env:
       GOVERSION: go1.14
-      https_proxy: http://internet.ford.com:83
+      https_proxy: http://internet.company.com:84
