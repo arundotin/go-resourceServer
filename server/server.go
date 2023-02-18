@@ -8,7 +8,7 @@ import (
 )
 
 func homePage(httpWriter http.ResponseWriter, httpRequest *http.Request) {
-	fmt.Fprint(httpWriter, "Hello. See https://github.ford.com/marunk20/go-resourceServer for more details")
+	fmt.Fprint(httpWriter, "Hello. See hhttps://github.com/arundotin/go-resourceServer for more details")
 }
 
 func RegisterRoutesInServer() *mux.Router {
